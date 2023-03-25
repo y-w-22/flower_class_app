@@ -1,0 +1,10 @@
+<title>Flower Predict App</title>
+{% if flowerName %}
+    <h1>これは {{ flowerName }} です</h1>
+    <div>
+        <img src="{{ image }}">
+    </div>
+    <a href="./">トップへ戻る</a>
+{% else %}
+    <a href="./">トップへ戻る</a>
+{% endif %}
